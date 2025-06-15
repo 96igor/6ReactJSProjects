@@ -21,7 +21,7 @@ const [open, setOpen] = React.useState(false);
       <button onClick={() => setOpen(true)} className="open-modal-btn">
         ✨ Открыть окно
       </button>
-      {open && <Modal open={open} setOpen={setOpen} />}
+      <Modal open={open} setOpen={setOpen} />
     </div>
   );
 }
